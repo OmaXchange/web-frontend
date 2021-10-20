@@ -1,0 +1,9 @@
+.navOpen {
+  transform: translateX(0);
+  transition: transform 500ms ease-out;
+}
+
+.navClosed {
+  transform: translateX(200%);
+  transition: transform 500ms ease-out;
+}
